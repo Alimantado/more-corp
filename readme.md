@@ -33,9 +33,11 @@ Migrate tables
 
 php artisan migrate
 
-Seed tables
+Seed table
 
-php artisan db:seed
+php artisan db:seed --class=UserTableSeeder 
+
+
 
 Start Server
 
