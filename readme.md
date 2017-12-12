@@ -16,6 +16,8 @@ Add .env file to root directory.
 Example:
 see .env.example file
 
+Add a database name in the .env
+
 Migrate tables
 php artisan migrate
 
